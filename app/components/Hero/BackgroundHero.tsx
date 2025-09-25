@@ -21,7 +21,7 @@ const BackgroundHero = () => {
       {/* المحتوى */}
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-center px-4">
         <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-4">
-          <span className="text-blue-400">A</span>ssociation For <span className="text-blue-400">T</span>omorrow's <span className="text-blue-400">C</span>hildren
+          <span className="text-blue-400">A</span>ssociation For <span className="text-blue-400">T</span>omorrows <span className="text-blue-400">C</span>hildren
         </h1>
         <p className="text-white max-w-2xl text-sm sm:text-base mb-8">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt enim totam nam beatae quidem, velit alias, necessitatibus hic cum ex excepturi veniam, iste atque vitae et corrupti voluptatibus ullam error.

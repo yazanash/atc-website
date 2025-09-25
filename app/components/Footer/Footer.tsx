@@ -21,7 +21,7 @@ const Footer = () => {
                     <ul className="mt-4 space-y-4 text-sm font-semibold text-gray-500">
                         <li className='flex items-center'> 
                             <FaMapMarkedAlt className='mr-2'/>
-                            AS-Swayda'a City, Syria 
+                            AS-Swayda City, Syria 
                         </li>
                         <li className='flex items-center'> 
                             <FaPhoneAlt className='mr-2'/>
