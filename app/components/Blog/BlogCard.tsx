@@ -16,8 +16,8 @@ const BlogCard = ({
 }: BlogCardProps) => {
   return (
     <div
-      className={`rounded-2xl shadow-sm w-[95%] sm:w-[80%] bg-gray-50 mx-auto items-center flex ${
-        RightToLeft ? "flex-row-reverse" : "flex-row"
+      className={`rounded-2xl shadow-sm w-[95%] sm:w-[80%] bg-gray-50 mx-auto items-center flex flex-col ${
+        RightToLeft ? " md:flex-row-reverse" : "md:flex-row"
       } p-2 my-3`}
     >
       <div>
