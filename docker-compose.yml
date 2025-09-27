@@ -1,0 +1,7 @@
+version: '3'
+services:
+  client-site:
+    build: .
+    ports:
+      - "3001:3000"  # البورت الخارجي 3001، الداخلي 3000 داخل الحاوية
+    restart: always
