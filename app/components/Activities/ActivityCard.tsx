@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image';
 import { useState } from 'react';
+import { useTranslations } from "next-intl";
 interface ActivityCardProps{
     title:string;
     image: string;
@@ -15,6 +16,8 @@ const ActivityCard = ({title,image, description}:ActivityCardProps) => {
   const toggleShow = () => setShowFull(prev => !prev);
   const isLong = description.length > 100;
   const displayedText = showFull || !isLong ? description : description.slice(0, 100) + '...';
+
+  const t = useTranslations("services");
   return (
 
     <div>
@@ -22,13 +25,13 @@ const ActivityCard = ({title,image, description}:ActivityCardProps) => {
         <h1 className='text-center text-lg my-5 font-semibold text-gray-800'>
             {title}
         </h1>
-        <p className='text-gray-600 font-medium text-sm mb-7 text-left'>{displayedText}</p>
+        <p className='text-gray-600 font-medium text-sm mb-7 text-start'>{displayedText}</p>
         {isLong && (
         <button
           onClick={toggleShow}
           className="text-sky-600 font-semibold text-sm hover:underline cursor-pointer"
         >
-          {showFull ? 'Show Less' : 'Show More'}
+          {showFull ? t("show_less") :   t("show_more")}
         </button>
       )}
     </div>

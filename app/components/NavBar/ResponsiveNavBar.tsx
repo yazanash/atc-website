@@ -3,7 +3,10 @@
 import React, { useState } from "react";
 import NavBar from "./NavBar";
 import MobileNavBar from "./MobileNavBar";
-const ResponsiveNavBar = () => {
+interface NavProps{
+  dir?: "rtl"|'ltr'
+}
+const ResponsiveNavBar = ({dir='ltr'}:NavProps) => {
   const [showNav, setShowNav] = useState(false);
   const handleNavShow = () => {
     setShowNav(true);
@@ -13,8 +16,8 @@ const ResponsiveNavBar = () => {
   };
   return (
     <div>
-      <NavBar openNav={handleNavShow}></NavBar>
-      <MobileNavBar showNav={showNav} closeNav={handleNavHide}></MobileNavBar>
+      <NavBar dir={dir} openNav={handleNavShow}></NavBar>
+      <MobileNavBar dir={dir} showNav={showNav} closeNav={handleNavHide}></MobileNavBar>
     </div>
   );
 };

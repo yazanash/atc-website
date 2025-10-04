@@ -11,12 +11,12 @@ export const NavLinks = [
   },
   {
     id:3,
-    url:'#ouractivities',
-    label:"OurActivities"
+    url:'#services',
+    label:"Services"
   },
   {
     id:4,
-    url:'#contact',
-    label:"ContactUs"
+    url:'#activities',
+    label:"Activities"
   },
 ]

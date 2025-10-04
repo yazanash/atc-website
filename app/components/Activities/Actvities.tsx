@@ -1,27 +1,67 @@
 import React from 'react'
 import ActivityCard from './ActivityCard'
+import { useTranslations } from 'next-intl';
+
 const Actvities = () => {
+  const t = useTranslations('services');
+  const heading = t('heading');
+  const services = [
+    {
+      id: t('items.0.id'),
+      title: t('items.0.title'),
+      text: [
+        t('items.0.text0'),
+        t('items.0.text1'),
+        t('items.0.text2'),
+        t('items.0.text3')
+      ],
+      image: t('items.0.image')
+    },
+    {
+      id: t('items.1.id'),
+      title: t('items.1.title'),
+      text: [
+       t('items.1.text0'),
+        t('items.1.text1'),
+        t('items.1.text2'),
+        t('items.1.text3')
+      ],
+      image: t('items.1.image')
+    },
+     {
+      id: t('items.2.id'),
+      title: t('items.2.title'),
+      text: [
+       t('items.2.text0'),
+        t('items.2.text1'),
+        t('items.2.text2'),
+        t('items.2.text3')
+      ],
+      image: t('items.2.image')
+    },
+     {
+      id: t('items.3.id'),
+      title: t('items.3.title'),
+      text: [
+       t('items.3.text0'),
+        t('items.3.text1'),
+        t('items.3.text2'),
+        t('items.3.text3')
+      ],
+      image: t('items.3.image')
+    }
+  ];
   return (
-    <div className='py-16 bg-sky-50'>
+    <div className='py-16 bg-sky-50' id="services">
         <h1 className=" text-2xl md:text-3xl capitalize font-bold text-center ">
-            Our Activities
+            {heading}
         </h1>
         <div className="mt-20 grid w-[90%] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 gap-12">
-            <div>
-                <ActivityCard image='/images/edu-aid.jpg' title='Children Education' description='A child education initiative is a community-driven effort that aims to provide accessible and inclusive learning opportunities for children especially in underserved or crisis-affected areas it focuses on nurturing foundational skills like reading writing and critical thinking through interactive and culturally relevant methods often combining traditional teaching with digital tools and emotional support to create a safe and empowering environment for young learners the initiative seeks to build a generation equipped with knowledge resilience and hope for a better future'/>
+             {services.map((service) => (
+               <div key={service.id}>
+                <ActivityCard image={service.image} title={service.title} description={service.text.join(' ')}/>
                </div>
-               <div>
-                 <ActivityCard image='/images/food-aid.jpg' title='Food Aid' description='A relief support initiative focuses on delivering essential aid to vulnerable communities especially during crises or displacement it provides food water shelter and medical supplies to families in need aiming to restore dignity and stability through coordinated humanitarian efforts the initiative often works with local partners to ensure rapid response and sustainable impact reaching children women and the elderly with life-saving resources and emotional support to help them survive and recover from hardship'/>
-               
-               </div>
-               <div>
-                 <ActivityCard image='/images/medical-aid.jpg' title='Medical Aid' description='A medical support initiative provides essential healthcare services to vulnerable populations especially in areas affected by conflict poverty or displacement it focuses on delivering free medical consultations treatments and medications while also offering psychological care and health education the initiative often collaborates with local clinics and humanitarian organizations to ensure access to life-saving services and promote long-term well-being for children families and the elderly in underserved communities'/>
-            
-               </div>
-               <div>
-                <ActivityCard image='/images/psycho-aid.jpg' title='Psychological aid' description='A psychosocial support initiative focuses on helping individuals especially children and families cope with emotional stress and trauma caused by conflict displacement or hardship it provides safe spaces for expression and healing through structured activities counseling and community engagement the initiative aims to strengthen resilience restore a sense of normalcy and promote mental well-being by addressing both psychological and social needs in a compassionate and culturally sensitive way'/>
-
-               </div>
+        ))}
         </div>
     </div>
   )

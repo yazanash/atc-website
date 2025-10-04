@@ -1,0 +1,77 @@
+{
+  "nav_items":{
+      "Home":"Home",
+      "AboutUs":"AboutUs",
+      "Services":"Our Services",
+      "Activities":"Our Activities",
+      "join":"Join Now"
+  },
+   "hero": {
+     "title": "Tomorrow’s Children Association",
+      "subtitle0": "A non-profit supporting children and vulnerable groups in As-Suwayda.",
+      "subtitle1": "Provides medical, psychological, and educational aid via expert teams.",
+      "subtitle2": "Believes childhood builds society, and giving drives change.",
+      "subtitle3": "Creates safe spaces to nurture potential and restore hope.",
+      "join":"Join Us Now",
+      "follow":"Follow us on Facebook"
+  },
+   "about": {
+   "heading": "About Us",
+    "text0": "Our goal in education is to empower children and vulnerable groups with access to knowledge as a fundamental right.",
+    "text1":  "We strive to provide a safe, supportive, and stimulating learning environment that fosters intellectual and emotional growth.",
+    "text2": "We believe education is the cornerstone of a better future and a conscious, cohesive society.",
+    "text3":"Through our programs, we plant the seeds of curiosity, nurture skills, and restore hope to those deprived of learning opportunities.",
+    "visit":"Visit Or Facebook Page"
+  },
+  "services": {
+    "show_more":"Show More",
+    "show_less":"Show Less",
+    "heading": "Our Services",
+    "items": [
+    {
+      "id": "education",
+      "title": "Education",
+      "text0":"Our goal in education is to empower children and vulnerable groups with access to knowledge as a fundamental right.",
+      "text1":"We strive to provide a safe, supportive, and stimulating learning environment that fosters intellectual and emotional growth.",
+      "text2":"We believe education is the cornerstone of a better future and a conscious, cohesive society.",
+      "text3": "Through our programs, we plant the seeds of curiosity, nurture skills, and restore hope to those deprived of learning opportunities.",
+      "image": "/images/edu-aid.jpeg"
+    },
+    {
+      "id": "relief",
+      "title": "Relief",
+      "text0": "Relief is an urgent humanitarian response aimed at saving lives and alleviating suffering during emergencies and disasters.",
+      "text1": "It includes providing food, water, shelter, and medical care to affected and marginalized groups.",
+      "text2":  "Relief is carried out with a spirit of solidarity and responsibility, and represents one of the noblest forms of humanitarian work.",
+      "text3":  "Through it, hope is rebuilt, and the seeds of recovery and stability are planted.",
+      "image": "/images/food-aid.jpeg"
+    },
+    {
+      "id": "medical",
+      "title": "Medical Services",
+      "text0": "The medical point at the association’s headquarters provides daily emergency and consultation services for children and vulnerable groups, supervised by a team of volunteer healthcare professionals.",
+      "text1": "It serves as a safe center for primary care and facilitates access to health support within the association’s environment.",
+      "text2": "Meanwhile, the mobile medical team regularly travels to remote areas to offer free checkups and treatment to those in need.",
+      "text3": "Driven by a strong humanitarian spirit, the team contributes to improving community health beyond the headquarters.",
+      "image": "/images/medical-aid.jpeg"
+    },
+    {
+      "id": "psychological",
+      "title": "Psychological Support",
+      "text0": "Psychological support is a fundamental pillar in restoring inner balance for vulnerable and affected individuals.",
+      "text1": "We offer individual and group therapy sessions led by specialists, ensuring privacy and a sense of safety.",
+      "text2": "We address the impact of trauma and help develop resilience and coping skills.",
+      "text3": "Our goal is to restore self-confidence and empower individuals to overcome pain and build a more stable life.",
+      "image": "/images/psycho-aid.jpeg"
+    }
+  ]
+  },
+   "footer": {
+      "title": "Tomorrow’s Children Association",
+       "contact":"Contact Information",
+      "social":"Social Media",
+      "copyright":" All rights reserved",
+       "days":"Days",
+        "location": "AS-Swayda City, Syria"
+  }
+}

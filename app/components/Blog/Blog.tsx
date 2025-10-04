@@ -8,7 +8,7 @@ const Blog = () => {
         Our Intitive
       </h1>
       
-      <div className="mt-2 w-[90%] mx-auto flex flex-col">
+      <div className="mt-2 w-[90%] mx-auto flex flex-col" id="activities">
         <BlogCard
           image="/images/edu-aid.jpg"
           title="Education Intitive"
