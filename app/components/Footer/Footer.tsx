@@ -40,14 +40,14 @@ const Footer = () => {
                 {t("location")}
               </li>
               <li className="flex items-center">
-                <FaPhoneAlt className="mx-2" />+ (963) - 999 999 999
+                <FaPhoneAlt className="mx-2" />+ (963) 994262919
               </li>
               <li className="flex items-center">
                 <FaClock className="mx-2" />7 {t("days")} / 08:00AM - 04:00PM
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mx-2" />
-                email@example.com
+                tomorrowchildren676@gmail.com
               </li>
             </ul>
           </div>
@@ -58,13 +58,13 @@ const Footer = () => {
             <ul className="mt-4 space-y-4 text-sm font-semibold text-gray-500">
               <li className="flex items-center">
                 <FaFacebookSquare className="mx-2" />
-                facebook.com/AtcPage
+              facebook.com/Tomorrow.children.ATC
               </li>
               <li className="flex items-center">
-                <FaWhatsapp className="mx-2" />+ (963) - 999 999 999
+                <FaWhatsapp className="mx-2" />+ (963) 994262919
               </li>
               <li className="flex items-center">
-                <FaTelegram className="mx-2" />+ (963) - 999 999 999
+                <FaTelegram className="mx-2" />+ (963) 994262919
               </li>
             </ul>
           </div>

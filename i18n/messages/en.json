@@ -27,8 +27,8 @@
     "show_more":"Show More",
     "show_less":"Show Less",
     "heading": "Our Services",
-    "items": [
-    {
+    "items": {
+    "0":{
       "id": "education",
       "title": "Education",
       "text0":"Our goal in education is to empower children and vulnerable groups with access to knowledge as a fundamental right.",
@@ -37,7 +37,7 @@
       "text3": "Through our programs, we plant the seeds of curiosity, nurture skills, and restore hope to those deprived of learning opportunities.",
       "image": "/images/edu-aid.jpeg"
     },
-    {
+   "1": {
       "id": "relief",
       "title": "Relief",
       "text0": "Relief is an urgent humanitarian response aimed at saving lives and alleviating suffering during emergencies and disasters.",
@@ -46,7 +46,7 @@
       "text3":  "Through it, hope is rebuilt, and the seeds of recovery and stability are planted.",
       "image": "/images/food-aid.jpeg"
     },
-    {
+   "2": {
       "id": "medical",
       "title": "Medical Services",
       "text0": "The medical point at the association’s headquarters provides daily emergency and consultation services for children and vulnerable groups, supervised by a team of volunteer healthcare professionals.",
@@ -55,7 +55,7 @@
       "text3": "Driven by a strong humanitarian spirit, the team contributes to improving community health beyond the headquarters.",
       "image": "/images/medical-aid.jpeg"
     },
-    {
+    "3":{
       "id": "psychological",
       "title": "Psychological Support",
       "text0": "Psychological support is a fundamental pillar in restoring inner balance for vulnerable and affected individuals.",
@@ -64,8 +64,43 @@
       "text3": "Our goal is to restore self-confidence and empower individuals to overcome pain and build a more stable life.",
       "image": "/images/psycho-aid.jpeg"
     }
-  ]
+  }
   },
+  "blog": {
+  "heading": "Blog Activities",
+  "items": {
+    "0": {
+       "id": "my_right_to_learn",
+      "title": "My Right To Learn",
+      "subtitle": "Because childhood cannot be postponed... and learning and play are rights that must never be denied",
+       "text0": "Tomorrow’s Children Association – ATC organized a psychosocial support activity at the Shahba shelter center, targeting children and families affected by the crisis. The event included group sessions for both parents and children, held in a safe and supportive environment that encouraged expression and healing.",
+       "text1": "The team listened to children and youth as they shared their painful experiences during the crisis, and students expressed their feelings about being deprived of education and prevented from achieving their goals and dreams.",
+       "text2": "Psychological and educational support was provided to help restore confidence and emotional stability, and recreational activities were held to bring joy back to childhood and reassurance to families.",
+       "text3": "Listening is the first step toward healing... and play is the language of childhood that must never be silenced.",
+       "text4": "Thank you to everyone who believes that children need more than shelter—they need someone to hear them, understand them, and restore their right to live fully.",
+      "image": "/images/my_right_to_learn.jpg"
+    },
+    "1": {
+      "id": "relief_program",
+      "title": "Relief Program",
+      "subtitle": "Tomorrow’s Children Association brings hope once again",
+      "text0": "In collaboration with our generous expatriates in Australia and the United Arab Emirates, Tomorrow’s Children Association carried out a humanitarian campaign that included the distribution of 100 food baskets, dignity kits, and financial aid to the most vulnerable families — a gesture that reflects the spirit of solidarity and compassion.",
+      "text1": "The aid was distributed as follows: from Thaala village, Tira village, Dour village, Jreen village, and at the Association’s headquarters.",
+      "text2": "The campaign targeted families of martyrs, kidnapped individuals, and the injured, reaffirming that giving knows no borders, and that humanity unites us across distances.",
+      "image": "/images/food-aid.jpeg"
+      },
+    "2": {
+      "id": "medical_team",
+      "title": "Mobile Medical Team",
+      "subtitle": "Humanity needs no certificate... only a heart that beats with compassion",
+       "text0": "As part of the fruitful collaboration between Tomorrow’s Children Association and Qanawat Charitable Association, a distinguished medical and humanitarian event was held on Friday, October 3, 2025, at the Qanawat Clinic, from 10:00 AM to 2:00 PM.",
+       "text1": "The event included free medical consultations and provision of necessary medications at no cost.",
+       "text2": "This initiative was made possible thanks to a remarkable team of generous professionals and humanitarians from our proud mountain: Dr. Tarek Maqlad – Consultant in Neurosurgery, Dr. Jacqueline Al-Aqabani – Pediatric Specialist, Ms. Ruba Al-Dhiab – Psychological Support Specialist.",
+       "text3": "Our deepest gratitude to this outstanding team for their noble gesture and generous humanitarian contribution. You are truly stars lighting up the sky of humanitarian work.",
+      "image": "/images/medical_team.jpg"
+    }
+  }
+},
    "footer": {
       "title": "Tomorrow’s Children Association",
        "contact":"Contact Information",

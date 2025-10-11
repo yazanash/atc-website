@@ -2,7 +2,7 @@ import React from 'react'
 import ActivityCard from './ActivityCard'
 import { useTranslations } from 'next-intl';
 
-const Actvities = () => {
+const Actvities = () => { 
   const t = useTranslations('services');
   const heading = t('heading');
   const services = [

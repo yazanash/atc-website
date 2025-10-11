@@ -34,10 +34,10 @@ const BackgroundHero = () => {
           {subtitle.join(' ')}
         </p>
         <div className="flex flex-wrap justify-center gap-4">
-          <button className="px-6 py-2 text-white font-semibold bg-blue-600 hover:bg-blue-800 transition rounded-full">
+          <button onClick={() => window.location.href = 'mailto:atcjobs56@gmail.com'} className="px-6 py-2 text-white font-semibold bg-blue-600 hover:bg-blue-800 transition rounded-full">
             {t("join")}
           </button>
-          <button className="px-6 py-2 text-blue-200 font-semibold border border-blue-300 hover:bg-blue-100 hover:text-blue-800 transition rounded-full flex items-center gap-2">
+          <button  onClick={() => window.open('https://www.facebook.com/Tomorrow.children.ATC', '_blank')} className="px-6 py-2 text-blue-200 font-semibold border border-blue-300 hover:bg-blue-100 hover:text-blue-800 transition rounded-full flex items-center gap-2">
             <FaFacebookF />
              {t("follow")}
           </button>
