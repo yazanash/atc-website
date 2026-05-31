@@ -1,18 +1,20 @@
 # --- المرحلة 1: تثبيت الاعتمادات ---
-FROM node:18-alpine AS deps
+FROM node:20-alpine AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY package*.json ./
 RUN npm ci
 
-FROM node:18-alpine AS builder
+# --- المرحلة 2: بناء المشروع ---
+FROM node:20-alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 ENV NEXT_TELEMETRY_DISABLED 1
 RUN npm run build
 
-FROM node:18-alpine AS runner
+# --- المرحلة 3: حاوية التشغيل النهائية (الإنتاج) ---
+FROM node:20-alpine AS runner
 WORKDIR /app
 
 ENV NODE_ENV production
